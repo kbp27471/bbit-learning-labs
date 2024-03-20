@@ -1,4 +1,6 @@
-import mqProducerInterface
+import pika
+import os
+from producer.producer_interface import mqProducerInterface
 
 
 class mqProducer(mqProducerInterface):
