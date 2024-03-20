@@ -18,6 +18,7 @@ class mqProducerInterface:
         # Save parameters to class variables
 
         # Call setupRMQConnection
+       
         pass
 
     def setupRMQConnection(self) -> None:
@@ -33,7 +34,7 @@ class mqProducerInterface:
         # Basic Publish to Exchange
 
         # Close Channel
-
+ 
         # Close Connection
-    
+
         pass
